@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="source" for="node" attr.name="source" attr.type="string"/>
+<key id="object" for="node" attr.name="object" attr.type="string"/>
+<key id="type" for="node" attr.name="type" attr.type="string"/>
+<key id="uuid" for="node" attr.name="uuid" attr.type="string"/>
+<key id="shape" for="node" attr.name="shape" attr.type="string"/>
+<key id="color" for="node" attr.name="color" attr.type="string"/>
+<key id="name" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="directed"><data key="name">F137-R3C3-Spacer-Sample [a13b93bb-4e06-41f7-81c1-cd00aad70bd4, material_run]</data>
+<node id="Outsourced through SWRI [5666e67d-c7e0-4510-bf5e-bf0d7d40e586, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">5666e67d-c7e0-4510-bf5e-bf0d7d40e586</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Outsourced through SWRI", "notes": null, "parameters": [], "source": {"performed_by": "Zare", "performed_date": "03/17/2023", "type": "performed_source"}, "spec": {"id": "82e82af5-e4b2-46aa-9f33-a2bb3723fade", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "5666e67d-c7e0-4510-bf5e-bf0d7d40e586"}}</data>
+  <data key="source">ProcessRun_Outsourced-through-SWRI_5666e67d-c7e0-4510-bf5e-bf0d7d40e586.json</data>
+</node>
+<node id="Flyer Stack [407e7808-bedc-4c73-a414-2a05730c92a4, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">407e7808-bedc-4c73-a414-2a05730c92a4</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Flyer Stack", "notes": "HTMDEC", "process": {"id": "5666e67d-c7e0-4510-bf5e-bf0d7d40e586", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "1dce9aed-37c6-4709-88d5-ee8bdffa268d", "scope": "auto", "type": "link_by_uid"}, "tags": ["FlyerID::F137", "recordId::158", "modId::9", "ObjectType::LaserShockFlyerStack"], "type": "material_run", "uids": {"auto": "407e7808-bedc-4c73-a414-2a05730c92a4"}}</data>
+  <data key="source">LaserShockFlyerStack_recordId_158.json</data>
+</node>
+<node id="Attaching Spacer [1c9083f9-0b79-4e13-8f2c-c0992f9785d6, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">1c9083f9-0b79-4e13-8f2c-c0992f9785d6</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Attaching Spacer", "notes": null, "parameters": [], "source": null, "spec": {"id": "e970f1f6-7d52-40e2-9bb5-979b3904bf63", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "1c9083f9-0b79-4e13-8f2c-c0992f9785d6"}}</data>
+  <data key="source">ProcessRun_Attaching-Spacer_1c9083f9-0b79-4e13-8f2c-c0992f9785d6.json</data>
+</node>
+<node id="Sample [89b6de21-f4ff-4627-b5a6-ef614b41a85e, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">89b6de21-f4ff-4627-b5a6-ef614b41a85e</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "c2bb661b-fec0-4592-a3b5-ddb9f94dcc07", "scope": "auto", "type": "link_by_uid"}, "name": "Sample", "notes": null, "number_fraction": null, "process": {"id": "93c65540-a586-4bd0-9437-3be64479f949", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "7985c576-f61d-48ff-8a98-4941531a035c", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "89b6de21-f4ff-4627-b5a6-ef614b41a85e"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Sample_89b6de21-f4ff-4627-b5a6-ef614b41a85e.json</data>
+</node>
+<node id="Flyer and Spacer [1faa9691-4b57-43ae-a716-7b6b6f1232f9, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">1faa9691-4b57-43ae-a716-7b6b6f1232f9</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "d17c6b4f-b2de-4e81-90ce-a15998057a3a", "scope": "auto", "type": "link_by_uid"}, "name": "Flyer and Spacer", "notes": null, "number_fraction": null, "process": {"id": "1f48f309-a6b3-4733-9f6a-45f7165be2ff", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "33d96026-47e3-47a5-a7c9-6d4ba7226602", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "1faa9691-4b57-43ae-a716-7b6b6f1232f9"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Flyer-and-Spacer_1faa9691-4b57-43ae-a716-7b6b6f1232f9.json</data>
+</node>
+<node id="Mixed Epoxy [1af49726-68e7-478f-832e-4452f701e0ff, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">1af49726-68e7-478f-832e-4452f701e0ff</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Mixed Epoxy", "notes": null, "process": {"id": "55176f06-e3d1-40db-8896-5feb2702d69d", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "0dc00ba3-9911-463e-903d-ed109bb698cb", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "1af49726-68e7-478f-832e-4452f701e0ff"}}</data>
+  <data key="source">MaterialRun_Mixed-Epoxy_1af49726-68e7-478f-832e-4452f701e0ff.json</data>
+</node>
+<node id="Cut Spacer [df524cd0-8593-4cfa-aaec-b53a24c660d4, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">df524cd0-8593-4cfa-aaec-b53a24c660d4</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Cut Spacer", "notes": null, "process": {"id": "f9f79d1a-4167-4cdf-aa1d-35e39ef161d1", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "f1b26dd6-f65a-4d13-b63c-62da058cc92e", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "df524cd0-8593-4cfa-aaec-b53a24c660d4"}}</data>
+  <data key="source">MaterialRun_Cut-Spacer_df524cd0-8593-4cfa-aaec-b53a24c660d4.json</data>
+</node>
+<node id="Mixed Epoxy [373b22d3-2696-4c14-9d4f-63b422e9f7d2, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">373b22d3-2696-4c14-9d4f-63b422e9f7d2</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "1af49726-68e7-478f-832e-4452f701e0ff", "scope": "auto", "type": "link_by_uid"}, "name": "Mixed Epoxy", "notes": null, "number_fraction": null, "process": {"id": "33a754d1-7103-4d6c-b72e-35b260b6acd4", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "7c5574f9-c971-4bf0-bb16-c004437b56b2", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "373b22d3-2696-4c14-9d4f-63b422e9f7d2"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Mixed-Epoxy_373b22d3-2696-4c14-9d4f-63b422e9f7d2.json</data>
+</node>
+<node id="Impact Sample Cutting and Polishing [93c65540-a586-4bd0-9437-3be64479f949, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">93c65540-a586-4bd0-9437-3be64479f949</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Impact Sample Cutting and Polishing", "notes": null, "parameters": [], "source": null, "spec": {"id": "2f100b1c-9a3d-4850-8985-f2c57b429437", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "93c65540-a586-4bd0-9437-3be64479f949"}}</data>
+  <data key="source">ProcessRun_Impact-Sample-Cutting-and-Polishing_93c65540-a586-4bd0-9437-3be64479f949.json</data>
+</node>
+<node id="Purchasing Foil [447b7202-8a89-4b96-8ebf-606cc78bf863, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">447b7202-8a89-4b96-8ebf-606cc78bf863</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Purchasing Foil", "notes": null, "parameters": [], "source": null, "spec": {"id": "a38d49b1-b5ad-4e45-9387-ab9333fdb23a", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "447b7202-8a89-4b96-8ebf-606cc78bf863"}}</data>
+  <data key="source">ProcessRun_Purchasing-Foil_447b7202-8a89-4b96-8ebf-606cc78bf863.json</data>
+</node>
+<node id="Raw Material [59d8947a-5e9c-493a-8dd3-6852652719b7, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">59d8947a-5e9c-493a-8dd3-6852652719b7</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "a5ec97fa-6747-4ed5-9f72-ef850cfd991a", "scope": "auto", "type": "link_by_uid"}, "name": "Raw Material", "notes": null, "number_fraction": null, "process": {"id": "4b8c87ee-e118-4d1f-a4c8-da1d975880c1", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "0d6890aa-6f4c-438d-a670-3bd3365ed74b", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "59d8947a-5e9c-493a-8dd3-6852652719b7"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Raw-Material_59d8947a-5e9c-493a-8dd3-6852652719b7.json</data>
+</node>
+<node id="240um Kapton (double adhesive) [ec5085c7-b7d2-43b8-8900-24c7696b1685, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">ec5085c7-b7d2-43b8-8900-24c7696b1685</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "240um Kapton (double adhesive)", "notes": null, "process": {"id": "e0c2dd7d-6d9f-47d7-8f2b-4311c7a37083", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "89f66cd4-4e1a-454b-88e5-05753f872822", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "ec5085c7-b7d2-43b8-8900-24c7696b1685"}}</data>
+  <data key="source">MaterialRun_240um-Kapton-(double-adhesive)_ec5085c7-b7d2-43b8-8900-24c7696b1685.json</data>
+</node>
+<node id="Epoxying a Flyer Stack [33a754d1-7103-4d6c-b72e-35b260b6acd4, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">33a754d1-7103-4d6c-b72e-35b260b6acd4</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Epoxying a Flyer Stack", "notes": null, "parameters": [], "source": null, "spec": {"id": "d3a79511-ad3b-4616-83d8-788062d0dd48", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "33a754d1-7103-4d6c-b72e-35b260b6acd4"}}</data>
+  <data key="source">ProcessRun_Epoxying-a-Flyer-Stack_33a754d1-7103-4d6c-b72e-35b260b6acd4.json</data>
+</node>
+<node id="Foil ID [a69f42f4-57f6-43d7-8934-d0c6b14ba4b7, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">a69f42f4-57f6-43d7-8934-d0c6b14ba4b7</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "89293325-971b-4c5e-83f2-70edd94c62d5", "scope": "auto", "type": "link_by_uid"}, "name": "Foil ID", "notes": null, "number_fraction": null, "process": {"id": "33a754d1-7103-4d6c-b72e-35b260b6acd4", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "cb68674c-5849-4e2f-82d6-5367909f42d3", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "a69f42f4-57f6-43d7-8934-d0c6b14ba4b7"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Foil-ID_a69f42f4-57f6-43d7-8934-d0c6b14ba4b7.json</data>
+</node>
+<node id="Borosilicate, T=0.25&quot; [6f8a8de4-4eec-434f-a79e-b55a4baa3e7c, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">6f8a8de4-4eec-434f-a79e-b55a4baa3e7c</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Borosilicate, T=0.25\"", "notes": null, "process": {"id": "f89356e1-5773-4eaf-8fc2-c79e080cc412", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "8b4fcb8b-5e92-45e6-980e-7947569fdd7d", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "6f8a8de4-4eec-434f-a79e-b55a4baa3e7c"}}</data>
+  <data key="source">MaterialRun_Borosilicate,-T=0.25"_6f8a8de4-4eec-434f-a79e-b55a4baa3e7c.json</data>
+</node>
+<node id="Loctite Ablestik 24 [7012ae4d-92fc-48e1-aaa1-adb2348f7425, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">7012ae4d-92fc-48e1-aaa1-adb2348f7425</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Loctite Ablestik 24", "notes": null, "process": {"id": "055ada3c-a7e6-4904-ab13-d560ace25376", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "fb7c608d-b2f9-4cae-bfc4-c9c379361c36", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "7012ae4d-92fc-48e1-aaa1-adb2348f7425"}}</data>
+  <data key="source">MaterialRun_Loctite-Ablestik-24_7012ae4d-92fc-48e1-aaa1-adb2348f7425.json</data>
+</node>
+<node id="230um Kapton Original v2 [f9f79d1a-4167-4cdf-aa1d-35e39ef161d1, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">f9f79d1a-4167-4cdf-aa1d-35e39ef161d1</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "230um Kapton Original v2", "notes": null, "parameters": [], "source": null, "spec": {"id": "6ca5eb0d-7c13-4feb-9551-ec31b5fa1e59", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "f9f79d1a-4167-4cdf-aa1d-35e39ef161d1"}}</data>
+  <data key="source">ProcessRun_230um-Kapton-Original-v2_f9f79d1a-4167-4cdf-aa1d-35e39ef161d1.json</data>
+</node>
+<node id="Choosing Flyer [88094aa9-5b6a-45a7-895c-8902a63a8ace, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">88094aa9-5b6a-45a7-895c-8902a63a8ace</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Choosing Flyer", "notes": null, "parameters": [], "source": null, "spec": {"id": "f0d2d639-9945-4a36-a720-501ed2c01a1a", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "88094aa9-5b6a-45a7-895c-8902a63a8ace"}}</data>
+  <data key="source">ProcessRun_Choosing-Flyer_88094aa9-5b6a-45a7-895c-8902a63a8ace.json</data>
+</node>
+<node id="Purchasing Glass [f89356e1-5773-4eaf-8fc2-c79e080cc412, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">f89356e1-5773-4eaf-8fc2-c79e080cc412</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Purchasing Glass", "notes": null, "parameters": [], "source": null, "spec": {"id": "62e528f2-a329-4e40-b1db-3e962450c31d", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "f89356e1-5773-4eaf-8fc2-c79e080cc412"}}</data>
+  <data key="source">ProcessRun_Purchasing-Glass_f89356e1-5773-4eaf-8fc2-c79e080cc412.json</data>
+</node>
+<node id="Cut Spacer [604f4f43-effb-499f-9ce2-594072913e72, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">604f4f43-effb-499f-9ce2-594072913e72</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "df524cd0-8593-4cfa-aaec-b53a24c660d4", "scope": "auto", "type": "link_by_uid"}, "name": "Cut Spacer", "notes": null, "number_fraction": null, "process": {"id": "1c9083f9-0b79-4e13-8f2c-c0992f9785d6", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "1832cf51-bcd9-405c-bcb4-477ab2f3f96d", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "604f4f43-effb-499f-9ce2-594072913e72"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Cut-Spacer_604f4f43-effb-499f-9ce2-594072913e72.json</data>
+</node>
+<node id="Attaching Sample [1f48f309-a6b3-4733-9f6a-45f7165be2ff, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">1f48f309-a6b3-4733-9f6a-45f7165be2ff</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Attaching Sample", "notes": null, "parameters": [], "source": {"performed_by": "Zare", "performed_date": "03/31/2023", "type": "performed_source"}, "spec": {"id": "b6f59106-9901-41d1-9781-58719e5f5302", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "1f48f309-a6b3-4733-9f6a-45f7165be2ff"}}</data>
+  <data key="source">ProcessRun_Attaching-Sample_1f48f309-a6b3-4733-9f6a-45f7165be2ff.json</data>
+</node>
+<node id="F137-R3C3-Spacer-Sample [a13b93bb-4e06-41f7-81c1-cd00aad70bd4, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">a13b93bb-4e06-41f7-81c1-cd00aad70bd4</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "F137-R3C3-Spacer-Sample", "notes": null, "process": {"id": "1f48f309-a6b3-4733-9f6a-45f7165be2ff", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "d805ab95-f6f6-45d2-b1c2-6622fa7f29d6", "scope": "auto", "type": "link_by_uid"}, "tags": ["recordId::2498", "modId::0", "ObjectType::LaserShockLaunchPackage"], "type": "material_run", "uids": {"auto": "a13b93bb-4e06-41f7-81c1-cd00aad70bd4"}}</data>
+  <data key="source">LaserShockLaunchPackage_recordId_2498.json</data>
+</node>
+<node id="Flyer and Spacer [d17c6b4f-b2de-4e81-90ce-a15998057a3a, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">d17c6b4f-b2de-4e81-90ce-a15998057a3a</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Flyer and Spacer", "notes": null, "process": {"id": "1c9083f9-0b79-4e13-8f2c-c0992f9785d6", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "2552d900-9b3b-4a58-8911-5e111db8627c", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "d17c6b4f-b2de-4e81-90ce-a15998057a3a"}}</data>
+  <data key="source">MaterialRun_Flyer-and-Spacer_d17c6b4f-b2de-4e81-90ce-a15998057a3a.json</data>
+</node>
+<node id="101.6um (0.004&quot;) Hard Al (AluFoil) [89293325-971b-4c5e-83f2-70edd94c62d5, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">89293325-971b-4c5e-83f2-70edd94c62d5</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "101.6um (0.004\") Hard Al (AluFoil)", "notes": null, "process": {"id": "447b7202-8a89-4b96-8ebf-606cc78bf863", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "e34fa5b6-f98a-4cb9-b073-94414f484a07", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "89293325-971b-4c5e-83f2-70edd94c62d5"}}</data>
+  <data key="source">MaterialRun_101.6um-(0.004")-Hard-Al-(AluFoil)_89293325-971b-4c5e-83f2-70edd94c62d5.json</data>
+</node>
+<node id="Purchasing Epoxy [055ada3c-a7e6-4904-ab13-d560ace25376, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">055ada3c-a7e6-4904-ab13-d560ace25376</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Purchasing Epoxy", "notes": null, "parameters": [], "source": null, "spec": {"id": "947ef847-de68-491c-8307-918a695920c9", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "055ada3c-a7e6-4904-ab13-d560ace25376"}}</data>
+  <data key="source">ProcessRun_Purchasing-Epoxy_055ada3c-a7e6-4904-ab13-d560ace25376.json</data>
+</node>
+<node id="Chosen Flyer [4420209a-42b7-4cf7-b778-93b18a907a45, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">4420209a-42b7-4cf7-b778-93b18a907a45</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "85fac0d1-c49c-4bc5-b92d-93d7e2251ef9", "scope": "auto", "type": "link_by_uid"}, "name": "Chosen Flyer", "notes": null, "number_fraction": null, "process": {"id": "1c9083f9-0b79-4e13-8f2c-c0992f9785d6", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "8b9e41d5-8238-4b06-8771-820e16edad79", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "4420209a-42b7-4cf7-b778-93b18a907a45"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Chosen-Flyer_4420209a-42b7-4cf7-b778-93b18a907a45.json</data>
+</node>
+<node id="Mixing Epoxy [55176f06-e3d1-40db-8896-5feb2702d69d, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">55176f06-e3d1-40db-8896-5feb2702d69d</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Mixing Epoxy", "notes": null, "parameters": [], "source": null, "spec": {"id": "89c5f90c-aa9c-4643-a6cf-c0435737824c", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "55176f06-e3d1-40db-8896-5feb2702d69d"}}</data>
+  <data key="source">ProcessRun_Mixing-Epoxy_55176f06-e3d1-40db-8896-5feb2702d69d.json</data>
+</node>
+<node id="Impact Sample [858e2cbf-b4bd-4716-a59e-7a0f76aaaf8e, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">858e2cbf-b4bd-4716-a59e-7a0f76aaaf8e</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Impact Sample", "notes": null, "process": {"id": "93c65540-a586-4bd0-9437-3be64479f949", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "cda64434-5237-4282-a84d-edcfdafa5efa", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "858e2cbf-b4bd-4716-a59e-7a0f76aaaf8e"}}</data>
+  <data key="source">MaterialRun_Impact-Sample_858e2cbf-b4bd-4716-a59e-7a0f76aaaf8e.json</data>
+</node>
+<node id="Flyer Stack [2777489d-2c1c-4a4a-beb3-8e50c139806b, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">2777489d-2c1c-4a4a-beb3-8e50c139806b</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "407e7808-bedc-4c73-a414-2a05730c92a4", "scope": "auto", "type": "link_by_uid"}, "name": "Flyer Stack", "notes": null, "number_fraction": null, "process": {"id": "88094aa9-5b6a-45a7-895c-8902a63a8ace", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "a54c54e6-29df-408f-8c43-49f9f399bcd8", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "2777489d-2c1c-4a4a-beb3-8e50c139806b"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Flyer-Stack_2777489d-2c1c-4a4a-beb3-8e50c139806b.json</data>
+</node>
+<node id="Epoxy Part A [c08e9f40-7864-4f5b-b18b-70ccaa865b18, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">c08e9f40-7864-4f5b-b18b-70ccaa865b18</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "7012ae4d-92fc-48e1-aaa1-adb2348f7425", "scope": "auto", "type": "link_by_uid"}, "name": "Epoxy Part A", "notes": null, "number_fraction": null, "process": {"id": "55176f06-e3d1-40db-8896-5feb2702d69d", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "a87db936-0a08-4862-b6ac-0a2f14ceab44", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "c08e9f40-7864-4f5b-b18b-70ccaa865b18"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Epoxy-Part-A_c08e9f40-7864-4f5b-b18b-70ccaa865b18.json</data>
+</node>
+<node id="Sample Processing [4b8c87ee-e118-4d1f-a4c8-da1d975880c1, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">4b8c87ee-e118-4d1f-a4c8-da1d975880c1</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Sample Processing", "notes": null, "parameters": [], "source": {"performed_by": "EagleAlloys", "performed_date": null, "type": "performed_source"}, "spec": {"id": "165efbfa-2cbe-4acc-9eb7-7773effedc45", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "4b8c87ee-e118-4d1f-a4c8-da1d975880c1"}}</data>
+  <data key="source">ProcessRun_Sample-Processing_4b8c87ee-e118-4d1f-a4c8-da1d975880c1.json</data>
+</node>
+<node id="Spall [92297ba7-4772-4c7e-a50c-4b382cd15710, measurement_run]">
+  <data key="color">purple</data>
+  <data key="shape">circle</data>
+  <data key="uuid">92297ba7-4772-4c7e-a50c-4b382cd15710</data>
+  <data key="type">measurement_run</data>
+  <data key="object">{"conditions": [], "file_links": [{"filename": "F2--20230331--00005", "type": "file_link", "url": null}, {"filename": "BP--20230331--00005", "type": "file_link", "url": null}], "material": {"id": "a13b93bb-4e06-41f7-81c1-cd00aad70bd4", "scope": "auto", "type": "link_by_uid"}, "name": "Spall", "notes": "", "parameters": [], "properties": [{"file_links": [], "name": "ReturnSignalStrength", "notes": null, "origin": "measured", "template": {"id": "08f8fe23-a9ea-47f2-882c-1bf15db67f98", "scope": "auto", "type": "link_by_uid"}, "type": "property", "value": {"nominal": -38.0, "type": "nominal_real", "units": "dimensionless"}}, {"file_links": [], "name": "VideoQuality", "notes": null, "origin": "measured", "template": {"id": "ea765ebf-3932-4e96-aea7-f89c6fcd3682", "scope": "auto", "type": "link_by_uid"}, "type": "property", "value": {"category": "OK", "type": "nominal_categorical"}}], "source": {"performed_by": "Zare", "performed_date": "03/31/2023", "type": "performed_source"}, "spec": {"id": "3c50c6fb-9711-468e-8860-243509a02e5f", "scope": "auto", "type": "link_by_uid"}, "tags": ["NewEnergyMeasurement::No", "ExperimentDayCounter::00005", "GrantFunding::HTMDEC", "recordId::2113", "modId::4", "ObjectType::LaserShockExperiment"], "type": "measurement_run", "uids": {"auto": "92297ba7-4772-4c7e-a50c-4b382cd15710"}}</data>
+  <data key="source">MeasurementRun_Spall_92297ba7-4772-4c7e-a50c-4b382cd15710.json</data>
+</node>
+<node id="Chosen Flyer [85fac0d1-c49c-4bc5-b92d-93d7e2251ef9, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">85fac0d1-c49c-4bc5-b92d-93d7e2251ef9</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Chosen Flyer", "notes": null, "process": {"id": "88094aa9-5b6a-45a7-895c-8902a63a8ace", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "b456d1bd-6dab-4cfc-84d1-365a03834e65", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "85fac0d1-c49c-4bc5-b92d-93d7e2251ef9"}}</data>
+  <data key="source">MaterialRun_Chosen-Flyer_85fac0d1-c49c-4bc5-b92d-93d7e2251ef9.json</data>
+</node>
+<node id="Raw Material [a5ec97fa-6747-4ed5-9f72-ef850cfd991a, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">a5ec97fa-6747-4ed5-9f72-ef850cfd991a</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Raw Material", "notes": null, "process": null, "sample_type": "unknown", "spec": {"id": "8f6d81c5-458f-48c2-908f-51b30b6dd2fc", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "a5ec97fa-6747-4ed5-9f72-ef850cfd991a"}}</data>
+  <data key="source">MaterialRun_Raw-Material_a5ec97fa-6747-4ed5-9f72-ef850cfd991a.json</data>
+</node>
+<node id="Glass ID [b3ddbf29-72a3-4b27-8bf2-27a99f87c3a3, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">b3ddbf29-72a3-4b27-8bf2-27a99f87c3a3</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "6f8a8de4-4eec-434f-a79e-b55a4baa3e7c", "scope": "auto", "type": "link_by_uid"}, "name": "Glass ID", "notes": null, "number_fraction": null, "process": {"id": "33a754d1-7103-4d6c-b72e-35b260b6acd4", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "ce3aa8b2-1a2e-42e0-b612-64594bb9801d", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "b3ddbf29-72a3-4b27-8bf2-27a99f87c3a3"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Glass-ID_b3ddbf29-72a3-4b27-8bf2-27a99f87c3a3.json</data>
+</node>
+<node id="Spacer Material [2ea3098b-b824-4555-94ed-b6e627bc00b9, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">2ea3098b-b824-4555-94ed-b6e627bc00b9</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "ec5085c7-b7d2-43b8-8900-24c7696b1685", "scope": "auto", "type": "link_by_uid"}, "name": "Spacer Material", "notes": null, "number_fraction": null, "process": {"id": "f9f79d1a-4167-4cdf-aa1d-35e39ef161d1", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "9e41a08e-9799-4856-bf82-6fd2f485fec5", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "2ea3098b-b824-4555-94ed-b6e627bc00b9"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Spacer-Material_2ea3098b-b824-4555-94ed-b6e627bc00b9.json</data>
+</node>
+<node id="Epoxy Part B [4c4d5a1e-f970-4caf-8fd6-c15adbd2f505, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">4c4d5a1e-f970-4caf-8fd6-c15adbd2f505</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "7012ae4d-92fc-48e1-aaa1-adb2348f7425", "scope": "auto", "type": "link_by_uid"}, "name": "Epoxy Part B", "notes": null, "number_fraction": null, "process": {"id": "55176f06-e3d1-40db-8896-5feb2702d69d", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "ca201f87-aa80-42a4-8918-189884c9a69e", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "4c4d5a1e-f970-4caf-8fd6-c15adbd2f505"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Epoxy-Part-B_4c4d5a1e-f970-4caf-8fd6-c15adbd2f505.json</data>
+</node>
+<node id="Purchasing Spacer [e0c2dd7d-6d9f-47d7-8f2b-4311c7a37083, process_run]">
+  <data key="color">red</data>
+  <data key="shape">circle</data>
+  <data key="uuid">e0c2dd7d-6d9f-47d7-8f2b-4311c7a37083</data>
+  <data key="type">process_run</data>
+  <data key="object">{"conditions": [], "file_links": [], "name": "Purchasing Spacer", "notes": null, "parameters": [], "source": null, "spec": {"id": "fc49107f-fc31-4c02-af5c-488b74ba706d", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "process_run", "uids": {"auto": "e0c2dd7d-6d9f-47d7-8f2b-4311c7a37083"}}</data>
+  <data key="source">ProcessRun_Purchasing-Spacer_e0c2dd7d-6d9f-47d7-8f2b-4311c7a37083.json</data>
+</node>
+<node id="Nb (99.5% pure) [c2bb661b-fec0-4592-a3b5-ddb9f94dcc07, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">c2bb661b-fec0-4592-a3b5-ddb9f94dcc07</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Nb (99.5% pure)", "notes": "Commercially pure", "process": {"id": "4b8c87ee-e118-4d1f-a4c8-da1d975880c1", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "9ef9017d-d306-4e9b-b141-acae13746084", "scope": "auto", "type": "link_by_uid"}, "tags": ["DateRecorded::11/10/2022", "RecordedBy::Zare", "GrantFunding::HTMDEC", "recordId::31", "modId::5", "ObjectType::LaserShockSample"], "type": "material_run", "uids": {"auto": "c2bb661b-fec0-4592-a3b5-ddb9f94dcc07"}}</data>
+  <data key="source">LaserShockSample_recordId_31.json</data>
+</node>
+<node id="Impact Sample [730c2265-20f6-443e-a4d2-2115a4a2206f, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">730c2265-20f6-443e-a4d2-2115a4a2206f</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "858e2cbf-b4bd-4716-a59e-7a0f76aaaf8e", "scope": "auto", "type": "link_by_uid"}, "name": "Impact Sample", "notes": null, "number_fraction": null, "process": {"id": "1f48f309-a6b3-4733-9f6a-45f7165be2ff", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "7c4d5966-e3f9-457f-a8d9-c37a035f9d61", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "730c2265-20f6-443e-a4d2-2115a4a2206f"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Impact-Sample_730c2265-20f6-443e-a4d2-2115a4a2206f.json</data>
+</node>
+<node id="Glass Epoxy Foil Stack [40fad1f1-32f6-4b9d-8de9-f414a72b4343, material_run]">
+  <data key="color">green</data>
+  <data key="shape">circle</data>
+  <data key="uuid">40fad1f1-32f6-4b9d-8de9-f414a72b4343</data>
+  <data key="type">material_run</data>
+  <data key="object">{"file_links": [], "name": "Glass Epoxy Foil Stack", "notes": null, "process": {"id": "33a754d1-7103-4d6c-b72e-35b260b6acd4", "scope": "auto", "type": "link_by_uid"}, "sample_type": "unknown", "spec": {"id": "1961fe39-2ea7-46d6-b584-ae30ebe7b397", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "material_run", "uids": {"auto": "40fad1f1-32f6-4b9d-8de9-f414a72b4343"}}</data>
+  <data key="source">MaterialRun_Glass-Epoxy-Foil-Stack_40fad1f1-32f6-4b9d-8de9-f414a72b4343.json</data>
+</node>
+<node id="Glass Epoxy Foil Stack [626e8368-e075-45c3-a61e-b4255c659bbc, ingredient_run]">
+  <data key="color">blue</data>
+  <data key="shape">circle</data>
+  <data key="uuid">626e8368-e075-45c3-a61e-b4255c659bbc</data>
+  <data key="type">ingredient_run</data>
+  <data key="object">{"absolute_quantity": null, "file_links": [], "labels": [], "mass_fraction": null, "material": {"id": "40fad1f1-32f6-4b9d-8de9-f414a72b4343", "scope": "auto", "type": "link_by_uid"}, "name": "Glass Epoxy Foil Stack", "notes": null, "number_fraction": null, "process": {"id": "5666e67d-c7e0-4510-bf5e-bf0d7d40e586", "scope": "auto", "type": "link_by_uid"}, "spec": {"id": "78b0dda0-9016-4105-ad9c-4c1916528b68", "scope": "auto", "type": "link_by_uid"}, "tags": [], "type": "ingredient_run", "uids": {"auto": "626e8368-e075-45c3-a61e-b4255c659bbc"}, "volume_fraction": null}</data>
+  <data key="source">IngredientRun_Glass-Epoxy-Foil-Stack_626e8368-e075-45c3-a61e-b4255c659bbc.json</data>
+</node>
+<edge source="Outsourced through SWRI [5666e67d-c7e0-4510-bf5e-bf0d7d40e586, process_run]" target="Flyer Stack [407e7808-bedc-4c73-a414-2a05730c92a4, material_run]"/>
+<edge source="Flyer Stack [407e7808-bedc-4c73-a414-2a05730c92a4, material_run]" target="Flyer Stack [2777489d-2c1c-4a4a-beb3-8e50c139806b, ingredient_run]"/>
+<edge source="Attaching Spacer [1c9083f9-0b79-4e13-8f2c-c0992f9785d6, process_run]" target="Flyer and Spacer [d17c6b4f-b2de-4e81-90ce-a15998057a3a, material_run]"/>
+<edge source="Sample [89b6de21-f4ff-4627-b5a6-ef614b41a85e, ingredient_run]" target="Impact Sample Cutting and Polishing [93c65540-a586-4bd0-9437-3be64479f949, process_run]"/>
+<edge source="Flyer and Spacer [1faa9691-4b57-43ae-a716-7b6b6f1232f9, ingredient_run]" target="Attaching Sample [1f48f309-a6b3-4733-9f6a-45f7165be2ff, process_run]"/>
+<edge source="Mixed Epoxy [1af49726-68e7-478f-832e-4452f701e0ff, material_run]" target="Mixed Epoxy [373b22d3-2696-4c14-9d4f-63b422e9f7d2, ingredient_run]"/>
+<edge source="Cut Spacer [df524cd0-8593-4cfa-aaec-b53a24c660d4, material_run]" target="Cut Spacer [604f4f43-effb-499f-9ce2-594072913e72, ingredient_run]"/>
+<edge source="Mixed Epoxy [373b22d3-2696-4c14-9d4f-63b422e9f7d2, ingredient_run]" target="Epoxying a Flyer Stack [33a754d1-7103-4d6c-b72e-35b260b6acd4, process_run]"/>
+<edge source="Impact Sample Cutting and Polishing [93c65540-a586-4bd0-9437-3be64479f949, process_run]" target="Impact Sample [858e2cbf-b4bd-4716-a59e-7a0f76aaaf8e, material_run]"/>
+<edge source="Purchasing Foil [447b7202-8a89-4b96-8ebf-606cc78bf863, process_run]" target="101.6um (0.004&quot;) Hard Al (AluFoil) [89293325-971b-4c5e-83f2-70edd94c62d5, material_run]"/>
+<edge source="Raw Material [59d8947a-5e9c-493a-8dd3-6852652719b7, ingredient_run]" target="Sample Processing [4b8c87ee-e118-4d1f-a4c8-da1d975880c1, process_run]"/>
+<edge source="240um Kapton (double adhesive) [ec5085c7-b7d2-43b8-8900-24c7696b1685, material_run]" target="Spacer Material [2ea3098b-b824-4555-94ed-b6e627bc00b9, ingredient_run]"/>
+<edge source="Epoxying a Flyer Stack [33a754d1-7103-4d6c-b72e-35b260b6acd4, process_run]" target="Glass Epoxy Foil Stack [40fad1f1-32f6-4b9d-8de9-f414a72b4343, material_run]"/>
+<edge source="Foil ID [a69f42f4-57f6-43d7-8934-d0c6b14ba4b7, ingredient_run]" target="Epoxying a Flyer Stack [33a754d1-7103-4d6c-b72e-35b260b6acd4, process_run]"/>
+<edge source="Borosilicate, T=0.25&quot; [6f8a8de4-4eec-434f-a79e-b55a4baa3e7c, material_run]" target="Glass ID [b3ddbf29-72a3-4b27-8bf2-27a99f87c3a3, ingredient_run]"/>
+<edge source="Loctite Ablestik 24 [7012ae4d-92fc-48e1-aaa1-adb2348f7425, material_run]" target="Epoxy Part A [c08e9f40-7864-4f5b-b18b-70ccaa865b18, ingredient_run]"/>
+<edge source="Loctite Ablestik 24 [7012ae4d-92fc-48e1-aaa1-adb2348f7425, material_run]" target="Epoxy Part B [4c4d5a1e-f970-4caf-8fd6-c15adbd2f505, ingredient_run]"/>
+<edge source="230um Kapton Original v2 [f9f79d1a-4167-4cdf-aa1d-35e39ef161d1, process_run]" target="Cut Spacer [df524cd0-8593-4cfa-aaec-b53a24c660d4, material_run]"/>
+<edge source="Choosing Flyer [88094aa9-5b6a-45a7-895c-8902a63a8ace, process_run]" target="Chosen Flyer [85fac0d1-c49c-4bc5-b92d-93d7e2251ef9, material_run]"/>
+<edge source="Purchasing Glass [f89356e1-5773-4eaf-8fc2-c79e080cc412, process_run]" target="Borosilicate, T=0.25&quot; [6f8a8de4-4eec-434f-a79e-b55a4baa3e7c, material_run]"/>
+<edge source="Cut Spacer [604f4f43-effb-499f-9ce2-594072913e72, ingredient_run]" target="Attaching Spacer [1c9083f9-0b79-4e13-8f2c-c0992f9785d6, process_run]"/>
+<edge source="Attaching Sample [1f48f309-a6b3-4733-9f6a-45f7165be2ff, process_run]" target="F137-R3C3-Spacer-Sample [a13b93bb-4e06-41f7-81c1-cd00aad70bd4, material_run]"/>
+<edge source="F137-R3C3-Spacer-Sample [a13b93bb-4e06-41f7-81c1-cd00aad70bd4, material_run]" target="Spall [92297ba7-4772-4c7e-a50c-4b382cd15710, measurement_run]"/>
+<edge source="Flyer and Spacer [d17c6b4f-b2de-4e81-90ce-a15998057a3a, material_run]" target="Flyer and Spacer [1faa9691-4b57-43ae-a716-7b6b6f1232f9, ingredient_run]"/>
+<edge source="101.6um (0.004&quot;) Hard Al (AluFoil) [89293325-971b-4c5e-83f2-70edd94c62d5, material_run]" target="Foil ID [a69f42f4-57f6-43d7-8934-d0c6b14ba4b7, ingredient_run]"/>
+<edge source="Purchasing Epoxy [055ada3c-a7e6-4904-ab13-d560ace25376, process_run]" target="Loctite Ablestik 24 [7012ae4d-92fc-48e1-aaa1-adb2348f7425, material_run]"/>
+<edge source="Chosen Flyer [4420209a-42b7-4cf7-b778-93b18a907a45, ingredient_run]" target="Attaching Spacer [1c9083f9-0b79-4e13-8f2c-c0992f9785d6, process_run]"/>
+<edge source="Mixing Epoxy [55176f06-e3d1-40db-8896-5feb2702d69d, process_run]" target="Mixed Epoxy [1af49726-68e7-478f-832e-4452f701e0ff, material_run]"/>
+<edge source="Impact Sample [858e2cbf-b4bd-4716-a59e-7a0f76aaaf8e, material_run]" target="Impact Sample [730c2265-20f6-443e-a4d2-2115a4a2206f, ingredient_run]"/>
+<edge source="Flyer Stack [2777489d-2c1c-4a4a-beb3-8e50c139806b, ingredient_run]" target="Choosing Flyer [88094aa9-5b6a-45a7-895c-8902a63a8ace, process_run]"/>
+<edge source="Epoxy Part A [c08e9f40-7864-4f5b-b18b-70ccaa865b18, ingredient_run]" target="Mixing Epoxy [55176f06-e3d1-40db-8896-5feb2702d69d, process_run]"/>
+<edge source="Sample Processing [4b8c87ee-e118-4d1f-a4c8-da1d975880c1, process_run]" target="Nb (99.5% pure) [c2bb661b-fec0-4592-a3b5-ddb9f94dcc07, material_run]"/>
+<edge source="Chosen Flyer [85fac0d1-c49c-4bc5-b92d-93d7e2251ef9, material_run]" target="Chosen Flyer [4420209a-42b7-4cf7-b778-93b18a907a45, ingredient_run]"/>
+<edge source="Raw Material [a5ec97fa-6747-4ed5-9f72-ef850cfd991a, material_run]" target="Raw Material [59d8947a-5e9c-493a-8dd3-6852652719b7, ingredient_run]"/>
+<edge source="Glass ID [b3ddbf29-72a3-4b27-8bf2-27a99f87c3a3, ingredient_run]" target="Epoxying a Flyer Stack [33a754d1-7103-4d6c-b72e-35b260b6acd4, process_run]"/>
+<edge source="Spacer Material [2ea3098b-b824-4555-94ed-b6e627bc00b9, ingredient_run]" target="230um Kapton Original v2 [f9f79d1a-4167-4cdf-aa1d-35e39ef161d1, process_run]"/>
+<edge source="Epoxy Part B [4c4d5a1e-f970-4caf-8fd6-c15adbd2f505, ingredient_run]" target="Mixing Epoxy [55176f06-e3d1-40db-8896-5feb2702d69d, process_run]"/>
+<edge source="Purchasing Spacer [e0c2dd7d-6d9f-47d7-8f2b-4311c7a37083, process_run]" target="240um Kapton (double adhesive) [ec5085c7-b7d2-43b8-8900-24c7696b1685, material_run]"/>
+<edge source="Nb (99.5% pure) [c2bb661b-fec0-4592-a3b5-ddb9f94dcc07, material_run]" target="Sample [89b6de21-f4ff-4627-b5a6-ef614b41a85e, ingredient_run]"/>
+<edge source="Impact Sample [730c2265-20f6-443e-a4d2-2115a4a2206f, ingredient_run]" target="Attaching Sample [1f48f309-a6b3-4733-9f6a-45f7165be2ff, process_run]"/>
+<edge source="Glass Epoxy Foil Stack [40fad1f1-32f6-4b9d-8de9-f414a72b4343, material_run]" target="Glass Epoxy Foil Stack [626e8368-e075-45c3-a61e-b4255c659bbc, ingredient_run]"/>
+<edge source="Glass Epoxy Foil Stack [626e8368-e075-45c3-a61e-b4255c659bbc, ingredient_run]" target="Outsourced through SWRI [5666e67d-c7e0-4510-bf5e-bf0d7d40e586, process_run]"/>
+</graph></graphml>
